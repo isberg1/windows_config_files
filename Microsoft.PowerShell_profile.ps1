@@ -1,20 +1,19 @@
 ######## Start kommadoer ###########
 
 Set-PSReadlineOption -BellStyle None 					# deaktiver piping ved backspace
-cd C:\Users\alexander\Desktop        					# åpne shell i denne mappen
-Set-PSReadlineKeyHandler -Key Tab -Function Complete   	# bash style tab complete
+Set-PSReadlineKeyHandler -Key Tab -Function Complete   			# bash style tab complete
 
 ######## Aliaser ##################
 
 Set-Alias -Name l -Value get-childitem   #  ls
 Set-Alias -Name cc -Value cls            #  clear screen
-Set-Alias -Name xx -Value ex             #	exit Shell
+Set-Alias -Name xx -Value ex             #  exit Shell
 
 ######## Funksjoner ###############
 
 	# exit Shell
 function ex (){exit}
-	# åpne denne fila med komandoen "profil"
+	# Ã¥pne denne fila med komandoen "profil"
 function profil  { start notepad++ C:\Users\alexander\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1}
 	# til working dir
 function c {Set-Location C:\Users\alexander\Desktop} 
