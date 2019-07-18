@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false
+}
